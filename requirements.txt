@@ -1,1 +1,5 @@
-pip install -r requirements.txt
+openai-whisper
+pyannote.audio==3.1.1
+torch
+torchaudio
+huggingface_hub
