@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 📋 Session Management
+
+**IMPORTANT**: Before starting any work, review these files:
+- `TODO.md` - Current task list and priorities
+- `history.md` - Complete session history and context
+
+These files track project progress and provide essential context for maintaining continuity across sessions.
+
 ## Project Overview
 
 This repository contains premium marketing website prototypes, specifically focused on creating Apple-style product showcase websites. The primary project is the LAB SEVEN battery system website for Labrador Field Systems, built as a sophisticated single-page application.
@@ -84,6 +92,9 @@ JavaScript features:
 
 - `lab-seven-battery.html`: Main Labrador Field Systems product website (1,600+ lines)
 - `macbook-air-replica.html`: Apple MacBook Air website replica for reference
+- `TODO.md`: Project task tracking and priority management
+- `history.md`: Complete session documentation and request/response log
+- `CLAUDE.md`: This technical documentation file
 - `.claude/settings.local.json`: Claude Code permissions allowing Apple.com WebFetch
 
 ## Design Principles
