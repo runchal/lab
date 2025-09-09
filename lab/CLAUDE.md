@@ -12,7 +12,10 @@ These files track project progress and provide essential context for maintaining
 
 ## Project Overview
 
-This repository contains premium marketing website prototypes, specifically focused on creating Apple-style product showcase websites. The primary project is the LAB SEVEN battery system website for Labrador Field Systems, built as a sophisticated single-page application.
+This repository contains premium marketing website prototypes, specifically focused on creating Apple-style product showcase websites. The primary project is the LAB SEVEN battery system website for Labrador Field Systems, built as a sophisticated single-page application with integrated content management system.
+
+### Latest Development (September 8, 2025)
+The project now includes a professional content management system that allows non-technical users to edit website content through a user-friendly interface. The editable version maintains all design quality and animations while providing safe, persistent content editing capabilities.
 
 ## Architecture
 
@@ -66,8 +69,20 @@ The codebase implements a premium design system with:
 ### Testing
 Open HTML files directly in browser - no build process required:
 ```bash
+# Static version
 open lab-seven-battery.html
+
+# Editable version with content management
+open lab-seven-battery-editable.html
 ```
+
+### Content Management
+The editable version includes a professional content editing interface:
+- Click "✏️ Edit Content" button to open editor panel
+- Edit content in organized form sections
+- Changes appear instantly without page refresh
+- Content persists using browser localStorage
+- Safe editing that cannot break design or animations
 
 ### Structure
 - Single-file applications with embedded CSS and JavaScript
@@ -87,15 +102,20 @@ JavaScript features:
 - Smooth scroll polyfill
 - Enhanced hover effects
 - Parallax scrolling implementation
+- **Content Management System**: Real-time content editing with localStorage persistence
+- **Template Engine**: Dynamic HTML updates via `siteContent` configuration object
 
 ## Key Files
 
-- `lab-seven-battery.html`: Main Labrador Field Systems product website (1,600+ lines)
-- `macbook-air-replica.html`: Apple MacBook Air website replica for reference
+- `README.md`: **NEW** Complete project overview, features, and usage guide
+- `lab-seven-battery.html`: Static marketing website (1,603 lines)
+- `lab-seven-battery-editable.html`: **NEW** Editable version with content management system (926+ lines)
+- `macbook-air-replica.html`: Apple MacBook Air website replica for reference (788 lines)
+- `content-editor-guide.md`: **NEW** Content management system usage instructions
 - `TODO.md`: Project task tracking and priority management
 - `history.md`: Complete session documentation and request/response log
 - `CLAUDE.md`: This technical documentation file
-- `.claude/settings.local.json`: Claude Code permissions allowing Apple.com WebFetch
+- `.claude/settings.local.json`: Claude Code permissions
 
 ## Design Principles
 
